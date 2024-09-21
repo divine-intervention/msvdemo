@@ -1,18 +1,14 @@
-import { Button, buttonVariants } from "@/components/ui"
-import { cn } from "@/lib/utils"
-import { ArrowRight } from "lucide-react"
-import Link from "next/link"
-import React from "react"
+import { Button } from "@/components/ui"
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableFooter,
   TableHead,
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
+import { ArrowRight } from "lucide-react"
 
 export const Plans = () => {
   return (

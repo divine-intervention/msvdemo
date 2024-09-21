@@ -1,12 +1,9 @@
 import * as React from "react"
 
-import { Icons } from "@/components/shared/icons"
-import { ModeToggle } from "@/components/shared/mode-toggle"
-import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
-import Link from "next/link"
-import Image from "next/image"
 import { Mail, Phone } from "lucide-react"
+import Image from "next/image"
+import Link from "next/link"
 import {
   FaFacebookSquare,
   FaInstagram,

@@ -46,11 +46,11 @@ const TestimonialItem = () => {
       <div className="col-span-4 space-y-8 rounded-3xl bg-primary/20 p-6 lg:p-8">
         <div className="flex text-primary">
           {[1, 2, 3, 4, 5].map((i) => (
-            <StarFilledIcon className="size-5" />
+            <StarFilledIcon key={i} className="size-5" />
           ))}
         </div>
         <div className="space-y-4">
-          <p className="text-3xl">"Revitalized my work approach"</p>
+          <p className="text-3xl">&quot;Revitalized my work approach&quot;</p>
           <p className="text-lg font-light text-muted-foreground">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
