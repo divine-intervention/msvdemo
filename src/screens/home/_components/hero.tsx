@@ -12,7 +12,7 @@ export const Hero = () => {
           <div className="absolute right-0 top-0 -z-10 h-full w-full max-w-xl opacity-40 md:opacity-70">
             <img
               src="https://raw.githubusercontent.com/sidiDev/remote-assets/main/Safari%20(Big%20Sur)%20-%20Light.png"
-              className="w-full origin-left rotate-12 rounded-lg border shadow"
+              className="h-96 w-full origin-left rotate-12 rounded-lg border shadow"
               alt="placeholder-1"
             />
             <img
@@ -22,7 +22,7 @@ export const Hero = () => {
             />
           </div>
           <div className="z-10 flex flex-col gap-24 lg:gap-56">
-            <div className="max-w-sm space-y-3">
+            {/* <div className="max-w-sm space-y-3">
               <p className="text-2xl font-medium">
                 Unlock Your Social Insights
               </p>
@@ -30,14 +30,15 @@ export const Hero = () => {
                 Lorem fusce orci enim scelerisque phasellus congue nibh at quam
                 venenatis vel gravida elit enim aliquet.
               </p>
-            </div>
-            <div className="w-full max-w-2xl space-y-6">
+            </div> */}
+            <div className="w-full max-w-2xl space-y-6 pt-12">
               <h2 className="text-balance text-4xl !leading-[1.3] md:text-5xl lg:text-pretty lg:text-6xl ">
-                Your Gateway To Social Media Insights And Success
+                Track and monitor your any brands or influencers social content
+                and its perfomance
               </h2>
               <div className="flex items-center gap-4">
                 <Button size={"lg"} className="rounded-full text-background">
-                  Get Started Now
+                  Explore MySocialView
                 </Button>
                 <Link
                   href={"/login"}
@@ -46,7 +47,7 @@ export const Hero = () => {
                     "rounded-full text-base font-medium"
                   )}
                 >
-                  Login
+                  Start Free Trial
                 </Link>
               </div>
             </div>

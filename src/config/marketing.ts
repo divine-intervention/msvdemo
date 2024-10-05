@@ -3,15 +3,15 @@ import { type MarketingConfig } from "@/types"
 export const marketingConfig: MarketingConfig = {
   mainNav: [
     {
-      title: "About",
+      title: "Why MySocialView",
       href: "/about",
     },
     {
-      title: "Pricing",
+      title: "Plans",
       href: "/pricing",
     },
     {
-      title: "FAQ",
+      title: "Resources",
       href: "/faq",
     },
     {

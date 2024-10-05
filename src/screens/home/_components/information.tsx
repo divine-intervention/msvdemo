@@ -6,7 +6,7 @@ import React from "react"
 export const Information = () => {
   return (
     <div className="space-y-14 py-32 md:py-56">
-      <Link
+      {/* <Link
         href={"/login"}
         className={cn(
           buttonVariants({ size: "default", variant: "outline" }),
@@ -14,9 +14,9 @@ export const Information = () => {
         )}
       >
         More About My Social View
-      </Link>
+      </Link> */}
 
-      <h3 className="max-w-4xl text-balance text-2xl !leading-[1.3] md:text-4xl lg:text-pretty lg:text-5xl">
+      {/* <h3 className="max-w-4xl text-balance text-2xl !leading-[1.3] md:text-4xl lg:text-pretty lg:text-5xl">
         My Social View Empowers You To Navigate The Dynamic World Of Social
         Media With Unparalleled Precision
       </h3>
@@ -39,7 +39,7 @@ export const Information = () => {
           Lorem fusce orci enim scelerisque phasellus congue nibh at quam
           venenatis vel gravida elit enim aliquet.
         </p>
-      </div>
+      </div> */}
     </div>
   )
 }

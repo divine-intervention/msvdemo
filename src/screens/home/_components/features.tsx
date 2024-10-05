@@ -20,8 +20,8 @@ const features = [
         />
       </svg>
     ),
-    title: "Best Architecture",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
+    title: "Track Post Performance",
+    desc: "MySocialView lets you easily see what posts are performing.",
   },
   {
     icon: (
@@ -40,8 +40,8 @@ const features = [
         />
       </svg>
     ),
-    title: "Next Auth Implementation",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
+    title: "Track Follower Growth",
+    desc: "Understand what is driving follower growth.",
   },
   {
     icon: (
@@ -60,8 +60,70 @@ const features = [
         />
       </svg>
     ),
-    title: "Build on your terms",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
+    title: "Track any brand or influencer",
+    desc: "Build better social strategies through understanding what your competitors or major brands are doing on Facebook and Instagram",
+  },
+]
+const more_features = [
+  {
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        className="h-6 w-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"
+        />
+      </svg>
+    ),
+    title: "Any Brand or Influencer",
+    desc: "View, monitor and analyse their social performance",
+  },
+  {
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        className="h-6 w-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
+        />
+      </svg>
+    ),
+    title: "Download and Save Content",
+    desc: "In its orginal format",
+  },
+  {
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        className="h-6 w-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3"
+        />
+      </svg>
+    ),
+    title: "Build Reports",
+    desc: "Save dashboards to reports that can be easily shared.",
   },
 ]
 export const Features = () => {
@@ -100,15 +162,15 @@ export const Features = () => {
               </Link>
 
               <h3 className="max-w-4xl text-balance text-2xl !leading-[1.3] md:text-4xl lg:text-pretty lg:text-5xl">
-                Keeping Track Of Any Social Media Performance Is Very Important
+                Compare multiple brands social activity seemlessly
               </h3>
               <div className="space-y-6">
                 <p className="max-w-sm text-base">
-                  Lorem fusce orci enim scelerisque phasellus congue nibh at
-                  quam venenatis vel gravida elit enim aliquet.
+                  Add up to 6 brands in comparison view. Giving you unrivaled
+                  insight.
                 </p>
                 <Button size={"lg"} className="rounded-full text-background">
-                  Learn More
+                  Explore MySocialView
                 </Button>
               </div>
             </div>
@@ -132,15 +194,15 @@ export const Features = () => {
               </Link>
 
               <h3 className="max-w-4xl text-balance text-2xl !leading-[1.3] md:text-4xl lg:text-pretty lg:text-5xl">
-                Keeping Track Of Any Social Media Performance Is Very Important
+                Deep Dive on any brand
               </h3>
               <div className="space-y-6">
                 <p className="max-w-sm text-base">
-                  Lorem fusce orci enim scelerisque phasellus congue nibh at
-                  quam venenatis vel gravida elit enim aliquet.
+                  Brand Overview provides countless ways to view a brands social
+                  performance
                 </p>
                 <Button size={"lg"} className="rounded-full text-background">
-                  Learn More
+                  Explore MySocialView
                 </Button>
               </div>
             </div>
@@ -148,12 +210,11 @@ export const Features = () => {
         </div>
         <div className="w-full space-y-16">
           <h3 className="mx-auto max-w-4xl text-balance text-center text-2xl !leading-[1.3] md:text-4xl lg:text-pretty lg:text-5xl">
-            Understand Your Competitor’s Social Media Pattern And Learn From
-            Those To Improve Yours
+            Take Control of your Social Media Strategy
           </h3>
           <div className="aspect-video h-full w-full rounded-3xl bg-accent"></div>
           <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3  [&>.feature-1]:pl-0">
-            {features.map((item, idx) => (
+            {more_features.map((item, idx) => (
               <li key={idx} className={`feature-${idx + 1}`}>
                 <div className="grid h-24 w-24 place-content-center rounded-3xl bg-primary/20">
                   <div className="flex h-12 w-12 items-center justify-center rounded-full border text-muted-foreground">
